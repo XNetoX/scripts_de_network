@@ -1,0 +1,6 @@
+PING vagalume.com (65.8.212.37) 56(84) bytes of data.
+64 bytes from 65.8.212.37 (65.8.212.37): icmp_seq=1 ttl=240 time=4.18 ms
+
+--- vagalume.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.184/4.184/4.184/0.000 ms

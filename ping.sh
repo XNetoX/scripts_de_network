@@ -14,3 +14,10 @@ echo "Ip do site:" $ip
 #Site no ar
 host=`cat log.txt | grep "received" | cut -d"," -f2 | cut -d"," -f1`
 echo "Resposta:" $host
+
+#Pacotes perdidos
+packets=`cat log.txt | grep "packet" | cut -d" " -f6`
+echo $packets "de pacotes perdidos"
+
+#Log
+echo "Log.txt criado em $(pwd)"
